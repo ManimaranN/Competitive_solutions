@@ -15,5 +15,5 @@ while len(list) <= 10000:
 
 print(list)
 ln = len(list)
-print("largest prime number in the list of first 6 prime numbers is: ", list[ln-1])
+print("largest prime number in the list of first 10001 prime numbers is: ", list[ln-1])
 
