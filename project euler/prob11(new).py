@@ -22,33 +22,33 @@ a =[]
 for i in range(20):
     a.append(list(map(int,input().split())))
 list = []
-sumr = 0
+sum_r = 0
 
 for i in range(20):
     sum = cross(a, 1)
-    if sum > sumr:
-        sumr=sum 
+    if sum > sum_r:
+        sum_r=sum 
 
 for i in range(20):
     sum = cross(a, 2)
-    if sum > sumr:
-        sumr=sum 
+    if sum > sum_r:
+        sum_r=sum 
 
 for i in range(17):
     sum = cross(a, 3)
-    if sum > sumr:
-        sumr=sum 
+    if sum > sum_r:
+        sum_r=sum 
 
 for i in range(17):
     sum = cross(a, 4)
-    if sum > sumr:
-        sumr=sum 
+    if sum > sum_r:
+        sum_r=sum 
 
 sum = cross(a, 5)
-if sum > sumr:
+if sum > sum_r:
         sumr=sum 
 
-print(sumr)
+print(sum_r)
 
 
 
